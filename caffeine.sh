@@ -19,7 +19,7 @@ EOF
 echo "Getting Sudo Perms"
 sudo echo
 echo "Installing Required Packages"
-sudo pacman -S --needed linux-tools
+sudo pacman -S --needed linux-tools zram-generator
 echo "Changing CPU governer to performance"
 sudo cpupower frequency-set -g performance
 
@@ -40,4 +40,12 @@ case "$choice" in
 		;;
 esac
 
-
+echo "Setting up zRam"
+sudo mkdir -p /etc/systemd/
+echo "[zram0]
+compression-algorithm = zstd" | sudo tee /etc/systemd/zram-generator.conf
+echo "Reloading daemons"
+sudo systemctl daemon-reload
+echo "Starting zRam service"
+sudo systemctl start systemd-zram-setup@zram0.service
+echo "zRam has been succesfully setup"
