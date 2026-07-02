@@ -10,7 +10,7 @@
 
 _Brewed for Speed. Engineered for Arch._
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/HyperionOS-dev/Caffeine/total?style=for-the-badge&color=purple)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/HyperionOS-dev/Caffeine/total?style=for-the-badge&color=%239D00FF)
 ![GitHub Repo stars](https://img.shields.io/github/stars/HyperionOS-dev/Caffeine?style=for-the-badge&color=gold)
 ![GitHub Tag](https://img.shields.io/github/v/tag/HyperionOS-dev/Caffeine?include_prereleases&sort=semver&style=for-the-badge&label=Version&color=Lightgreen)
 
