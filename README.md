@@ -28,7 +28,7 @@ There are 3 methods to download the script, all needing a bash commandline/termi
 
 ### 1. cURL (simplest)
 ```
-curl -sSL https://github.com/HyperionOS-dev/Caffeine/releases/download/v0.2/caffeine.sh | bash
+curl -sSL https://github.com/HyperionOS-dev/Caffeine/releases/download/v0.3/caffeine.sh | bash
 ```
 
 ### 2. Releases
