@@ -2,7 +2,7 @@
 
 **☕ Caffeine**
 
-<img src="images/Caffeine.jpeg" alt="Preview">
+<img src="images/Caffeine.png" alt="Preview">
 
 </h1>
 
